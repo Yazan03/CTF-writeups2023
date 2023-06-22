@@ -20,7 +20,8 @@ pt = b2l(FLAG.encode())
 ct = pow(pt,e,n)
 
 open('output.txt', 'w').write(f'e: {e}\nd: {d}\nphi: {phi}\nct: {ct}')
-
+```
+```text
 and we have out.txt
 
 e: 65537
