@@ -1,7 +1,7 @@
 # Writeup for  Meat graphs from MCTF Quals 
 <p align="center">
   
-<img src="[http://some_place.com/image.png](https://github.com/Yazan03/CTF-writeups/assets/94278827/ec394e9e-243c-4048-836f-2c89e4830289)" />
+<img src="https://github.com/Yazan03/CTF-writeups/assets/94278827/ec394e9e-243c-4048-836f-2c89e4830289" />
 
 </p>
 
