@@ -9,7 +9,7 @@
 
 ```Introduction:```
 
-It was a static web page then i satarted exploring. Armed with Burp Suite, my journey began with intercepting requests, uncovering a GraphQL endpoint within two requests. The second, more intriguing one, became the focal point of my exploration.
+It was a static web page then i started exploring. Armed with Burp Suite, my journey began with intercepting requests, uncovering a GraphQL endpoint within two requests. The second, more intriguing one, became the focal point of my exploration.
 
 ![Screenshot 2023-11-12 064525](https://github.com/Yazan03/CTF-writeups/assets/94278827/c3009d71-f9e1-460f-9e77-eb30786d7285)
 
