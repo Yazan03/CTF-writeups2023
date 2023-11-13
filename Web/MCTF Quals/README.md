@@ -31,7 +31,7 @@ Recognizing there is an input validation on the filename, Then i tried every tec
 
 ![Screenshot 2023-11-12 065052](https://github.com/Yazan03/CTF-writeups/assets/94278827/f222a5f8-668e-4ad1-8611-59e2e7a1ed88)
 
-At the end we Secured a top 10 place with my team ```L3ak``` and i got a 3rd blood on this challenge and the challenge that maintained with only three solves.
+At the end we Secured a top 10 place with my team ```L3ak``` and i got a 3rd blood on this challenge and the challenge maintained with only three solves.
 
 ![Screenshot 2023-11-12 063045](https://github.com/Yazan03/CTF-writeups/assets/94278827/7740d1cd-78fc-41f3-830f-2516ef110d35)
 
