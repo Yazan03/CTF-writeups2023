@@ -37,7 +37,7 @@ At the end we Secured a top 10 place with my team ```L3ak``` and i got a 3rd blo
 
 <p align="center">
   
-<img src="[https://github.com/Yazan03/CTF-writeups/assets/94278827/ec394e9e-243c-4048-836f-2c89e4830289](https://github.com/Yazan03/CTF-writeups/assets/94278827/7740d1cd-78fc-41f3-830f-2516ef110d35)" />
+<img src="https://github.com/Yazan03/CTF-writeups/assets/94278827/7740d1cd-78fc-41f3-830f-2516ef110d35" />
 
 </p>
 
