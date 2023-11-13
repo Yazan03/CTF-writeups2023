@@ -13,7 +13,7 @@ It was a static web page beckoning exploration. Armed with Burp Suite, my journe
 
 ```Enumeration```
 
-Executing an introspection query, I unearthed a trove of data.
+Executing an introspection query, it return data back.
 
 ![Screenshot 2023-11-12 064620](https://github.com/Yazan03/CTF-writeups/assets/94278827/2b09051f-003f-43c6-869e-6ee0b6e7d46a)
 
