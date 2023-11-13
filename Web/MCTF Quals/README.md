@@ -17,7 +17,7 @@ Executing an introspection query, it return data back.
 
 ![Screenshot 2023-11-12 064620](https://github.com/Yazan03/CTF-writeups/assets/94278827/2b09051f-003f-43c6-869e-6ee0b6e7d46a)
 
-Visualizing it through GraphQL Voyager shed light on the crucial "products" table, which, intriguingly, led to a test connected to another table with filename and description.
+Visualizing it through GraphQL Voyager shed light on the crucial "products" table, which, exposed a test connected to another table with filename and description.
 
 ![image](https://github.com/Yazan03/CTF-writeups/assets/94278827/233f4945-6a5c-4821-9b9e-df7f4918056f)
 
