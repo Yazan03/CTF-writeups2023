@@ -27,7 +27,7 @@ Then i craft a query to test if i can return values of price, name and id and it
 
 ![Screenshot 2023-11-12 064904](https://github.com/Yazan03/CTF-writeups/assets/94278827/bfe7ece5-e72a-49e2-a340-475d15ff2dfa)
 
-Recognizing there is an input validation on the filename, Then i tried every technique i know and it all failed then i start thinking why we put such this ....// to bypass the validation because maybe the website filter ../ into an empty string then i tried to add more ```......///``` and it worked !
+Recognizing there is an input validation on the filename, Then i tried every technique i know and it all failed then i start thinking why we put such this ```....//``` to bypass the validation because maybe the website filter ```../``` into an empty string then i tried to add more ```......///``` and it worked !
 
 ![Screenshot 2023-11-12 065052](https://github.com/Yazan03/CTF-writeups/assets/94278827/f222a5f8-668e-4ad1-8611-59e2e7a1ed88)
 
