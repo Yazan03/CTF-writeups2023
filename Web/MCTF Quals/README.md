@@ -9,7 +9,7 @@
 
 ```Introduction:```
 
-It was a static web page then I started exploring. Armed with Burp Suite, my journey began with intercepting requests and uncovering a GraphQL endpoint within two requests. The second, more intriguing one, became the focal point of my exploration.
+It was a static web page, then I started exploring. Armed with Burp Suite, my journey began with intercepting requests and uncovering a GraphQL endpoint within two requests. The second, more intriguing one, became the focal point of my exploration.
 
 ![Screenshot 2023-11-12 064525](https://github.com/Yazan03/CTF-writeups/assets/94278827/c3009d71-f9e1-460f-9e77-eb30786d7285)
 
@@ -19,21 +19,21 @@ Executing an introspection query, it return data back.
 
 ![Screenshot 2023-11-12 064620](https://github.com/Yazan03/CTF-writeups/assets/94278827/2b09051f-003f-43c6-869e-6ee0b6e7d46a)
 
-Visualizing it through GraphQL Voyager shed light on the crucial "products" table, which, exposed a test connected to another table with filename and description.
+Visualizing it through GraphQL Voyager shed light on the crucial "products" table, which exposed a test connected to another table with a filename and description.
 
 ![image](https://github.com/Yazan03/CTF-writeups/assets/94278827/233f4945-6a5c-4821-9b9e-df7f4918056f)
 
 ```Exploitation```
 
-Then i craft a query to test if i can return values of price, name and id and it worked !, I noticed a filename associated with the test. Initiating a subquery within the filename light up and idea. Considering the possibility of path traversal, I satrted enumerating the system. Surprisingly, attempts to read files returned a status code of 200, but with an error in filename and they added hint that the flag in ```/srv/flag.txt``` so it made sense.
+Then I crafted a query to test if I could return values of price, name, and ID, and it worked !, I noticed a filename associated with the test. Initiating a subquery within the filename lights up an idea. Considering the possibility of path traversal, I started enumerating the system. Surprisingly, attempts to read files returned a status code of 200, but with an error in filename, and they added a hint that the flag in ```/srv/flag.txt``` made sense.
 
 ![Screenshot 2023-11-12 064904](https://github.com/Yazan03/CTF-writeups/assets/94278827/bfe7ece5-e72a-49e2-a340-475d15ff2dfa)
 
-Recognizing there is an input validation on the filename, Then i tried every technique i know and it all failed then i start thinking why we put such this ```....//``` to bypass the validation because maybe the website filter ```../``` into an empty string then i tried to add more ```......///``` and it worked !
+Recognizing there is an input validation on the filename, I tried every technique I knew and it all failed. Then I start thinking about why we put this ```....//``` to bypass the validation because maybe the website filters ```../``` into an empty string. Then I tried to add more ```......///``` and it worked!
 
 ![Screenshot 2023-11-12 065052](https://github.com/Yazan03/CTF-writeups/assets/94278827/f222a5f8-668e-4ad1-8611-59e2e7a1ed88)
 
-At the end we Secured a top 10 place with my team ```L3ak``` and i got a 3rd blood on this challenge and the challenge maintained with only three solves.
+At the end, we secured a top-10 place with my team, ```L3ak```, and I got 3rd blood on this challenge, which was maintained with only three solves.
 
 <p align="center">
   
