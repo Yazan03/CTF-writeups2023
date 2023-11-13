@@ -23,7 +23,7 @@ Visualizing it through GraphQL Voyager shed light on the crucial "products" tabl
 
 ```Exploitation```
 
-Then i craft a query to test if i can return values of price, name and id and it worked !, I noticed a filename associated with the test. Initiating a subquery within the filename opened a new avenue. Considering the possibility of path traversal, I embarked on enumerating the system. Surprisingly, attempts to read files returned a perplexing status code of 200, accompanied by an error-ridden filename and they added hint that the flag in ```/srv/flag.txt``` so it made sense.
+Then i craft a query to test if i can return values of price, name and id and it worked !, I noticed a filename associated with the test. Initiating a subquery within the filename light up and idea. Considering the possibility of path traversal, I satrted enumerating the system. Surprisingly, attempts to read files returned a status code of 200, but with an error in filename and they added hint that the flag in ```/srv/flag.txt``` so it made sense.
 
 ![Screenshot 2023-11-12 064904](https://github.com/Yazan03/CTF-writeups/assets/94278827/bfe7ece5-e72a-49e2-a340-475d15ff2dfa)
 
@@ -31,7 +31,7 @@ Recognizing there is an input validation on the filename, Then i tried every tec
 
 ![Screenshot 2023-11-12 065052](https://github.com/Yazan03/CTF-writeups/assets/94278827/f222a5f8-668e-4ad1-8611-59e2e7a1ed88)
 
-At the end we Secured a top 10 place with my team ```L3ak``` and i got a 3rd blood on this challenge and the challenge maintained with only three solvers.
+At the end we Secured a top 10 place with my team ```L3ak``` and i got a 3rd blood on this challenge and the challenge that maintained with only three solves.
 
 ![Screenshot 2023-11-12 063045](https://github.com/Yazan03/CTF-writeups/assets/94278827/7740d1cd-78fc-41f3-830f-2516ef110d35)
 
