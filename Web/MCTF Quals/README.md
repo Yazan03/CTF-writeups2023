@@ -21,3 +21,8 @@ Visualizing it through GraphQL Voyager shed light on the crucial "products" tabl
 
 ![image](https://github.com/Yazan03/CTF-writeups/assets/94278827/233f4945-6a5c-4821-9b9e-df7f4918056f)
 
+Then i craft a query to test if i can return values of price, name and id and it worked !, I noticed a filename associated with the test. Initiating a subquery within the filename opened a new avenue. Considering the possibility of path traversal, I embarked on enumerating the system. Surprisingly, attempts to read files returned a perplexing status code of 200, accompanied by an error-ridden filename and they added hint that the flag in /srv/flag.txt so it made sense.
+
+![Screenshot 2023-11-12 064904](https://github.com/Yazan03/CTF-writeups/assets/94278827/bfe7ece5-e72a-49e2-a340-475d15ff2dfa)
+
+
