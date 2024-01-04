@@ -27,7 +27,8 @@ Visualizing it through GraphQL Voyager shed light on the crucial "products" tabl
 
 Then I crafted a query to test if I could return values of price, name, and ID, and it worked !, I noticed a filename associated with the test. Initiating a subquery within the filename lights up an idea. Considering the possibility of path traversal, I started enumerating the system. Surprisingly, attempts to read files returned a status code of 200, but with an error in filename, and they added a hint that the flag in ```/srv/flag.txt``` made sense.
 
-![Screenshot 2023-11-12 064904](https://github.com/Yazan03/CTF-writeups/assets/94278827/bfe7ece5-e72a-49e2-a340-475d15ff2dfa)
+![Screenshot 2024-01-04 154134](https://github.com/Yazan03/xss/assets/94278827/6a69964e-81a0-4cfa-b673-2a72fccd1ecc)
+
 
 Recognizing there is an input validation on the filename, I tried every technique I knew and it all failed. Then I start thinking about why we put this ```....//``` to bypass the validation because maybe the website filters ```../``` into an empty string. Then I tried to add more ```......///``` and it worked!
 
