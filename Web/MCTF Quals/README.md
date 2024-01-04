@@ -32,7 +32,7 @@ Then I crafted a query to test if I could return values of price, name, and ID, 
 
 Recognizing there is an input validation on the filename, I tried every technique I knew and it all failed. Then I start thinking about why we put this ```....//``` to bypass the validation because maybe the website filters ```../``` into an empty string. Then I tried to add more ```......///``` and it worked!
 
-![Screenshot 2023-11-12 065052](https://github.com/Yazan03/CTF-writeups/assets/94278827/f222a5f8-668e-4ad1-8611-59e2e7a1ed88)
+![Screenshot 2024-01-04 153111](https://github.com/Yazan03/xss/assets/94278827/ccd4029b-63bb-48d6-89ad-3dfd1182033c)
 
 At the end, we secured a top-10 place with my team, ```L3ak```, and I got 3rd blood on this challenge, which was maintained with only three solves.
 
