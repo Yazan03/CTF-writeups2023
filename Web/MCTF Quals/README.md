@@ -42,5 +42,3 @@ At the end, we secured a top-10 place with my team, ```L3ak```, and I got 3rd bl
 
 </p>
 
-![Screenshot 2023-11-12 130930](https://github.com/Yazan03/CTF-writeups/assets/94278827/0d4ff5c5-6f55-4b1d-aef9-e3ee976eca66)
-
