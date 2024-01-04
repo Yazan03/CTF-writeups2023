@@ -5,7 +5,7 @@
 
 </p>
 
-![Screenshot 2023-11-12 063346](https://github.com/Yazan03/CTF-writeups/assets/94278827/01b54c4a-7731-414d-83bc-56ad2ca4f6c3)
+![Screenshot 2024-01-04 152929](https://github.com/Yazan03/xss/assets/94278827/ab292890-e317-40f9-a16b-9c996c49e88f)
 
 ```Introduction:```
 
